@@ -1,19 +1,32 @@
 p {
-  font-size: 100px;
-}
+  /* 常見設定: 16px 18px 20px */
+  /* 預設16px */
+  font-size: 16px;
 
-.red {
-  color: red;
-}
+  /* 字型 */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.green {
-  color: green;
-}
+  /* 行距 */
+  /* 依照文字大小設定 font-size x line-height */
+  /* 常見設定: 1.5 ~ 1.85 */
+  /* 或是直接設定px */
+  line-height: 1.5;
 
-.pink {
-  color: pink;
-}
+  /* 文字靠右靠左 */
+  text-align: left;
 
-/* 標籤選擇器 h1,p */
-/* 擬態選擇器 a:hover a:active */
-/* 類別選擇器 class="" 自訂效果 */
+  /* 文字首行縮排 */
+  /* 通常中文網站會空兩個字 font-size x2 */
+  text-indent: 32px;
+
+  /* 以下較不常使用 */
+
+  /* 文字特效 */
+  /* 底線 刪除線 etc. */
+  /* 可參考新聞網站的設計 */
+  /* text-decoration: line-through; */
+
+  /* 字距調整 */
+  /* 通常不使用 */
+  /* letter-spacing: 1px; */
+}
