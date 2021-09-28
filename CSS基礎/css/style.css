@@ -2,14 +2,25 @@ h1 {
   color: rgba(0, 119, 255, 0.644);
   font-size: 100px;
 }
+h1:hover {
+  color: red;
+}
 
 p {
   color: #f0f;
   font-size: 100px;
 }
+/* 滑鼠按住不放 */
+p:active {
+  color: yellow;
+}
 
 a {
   color: pink;
+}
+a:hover {
+  color: blue;
+  font-size: 100px;
 }
 
 ul {
