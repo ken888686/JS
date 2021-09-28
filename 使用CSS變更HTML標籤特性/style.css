@@ -1,0 +1,11 @@
+h1 {
+  background: gray;
+  color: white;
+  width: 300px;
+  height: 30px;
+}
+
+p, li, a {
+  background: blue;
+  color: white
+}
