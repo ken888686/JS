@@ -1,11 +1,22 @@
 h1 {
-  /* 粗細 樣式 顏色 */
-  /* border: 5px solid blue; */
-  border-left: 5px solid blue;
-  border-bottom: 5px solid red;
-  border-right: 5px solid yellow;
-  border-top: 5px solid green;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.description {
+  text-indent: 32px;
+}
+
+.red {
+  border-left: 8px solid red;
+  border-bottom: 16px solid red;
+  font-size: 32px;
+}
+
+.delete {
+  text-decoration: line-through;
+}
+
 img {
   border: 5px solid blueviolet;
 }
