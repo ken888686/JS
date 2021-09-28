@@ -1,32 +1,19 @@
-h1 {
-  color: rgba(0, 119, 255, 0.644);
+p {
   font-size: 100px;
 }
-h1:hover {
+
+.red {
   color: red;
 }
 
-p {
-  color: #f0f;
-  font-size: 100px;
-}
-/* 滑鼠按住不放 */
-p:active {
-  color: yellow;
-}
-
-a {
-  color: pink;
-}
-a:hover {
-  color: blue;
-  font-size: 100px;
-}
-
-ul {
-  color: gray;
-}
-
-ol {
+.green {
   color: green;
 }
+
+.pink {
+  color: pink;
+}
+
+/* 標籤選擇器 h1,p */
+/* 擬態選擇器 a:hover a:active */
+/* 類別選擇器 class="" 自訂效果 */
