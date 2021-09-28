@@ -1,11 +1,22 @@
 h1 {
+  display: inline;
   background: gray;
   color: white;
   width: 300px;
   height: 30px;
 }
 
-p, li, a {
+/* 通常會將a設定為display: block; */
+/* 是為了UI/UX比較容易點擊 */
+a {
   background: blue;
-  color: white
+  color: white;
+  display: block;
+  height: 50px;
+  width: 100px;
+}
+
+span {
+  color: red;
+  font-size: 30px;
 }
