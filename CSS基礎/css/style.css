@@ -7,3 +7,15 @@ p {
   color: #f0f;
   font-size: 100px;
 }
+
+a {
+  color: pink;
+}
+
+ul {
+  color: gray;
+}
+
+ol {
+  color: green;
+}
