@@ -23,6 +23,10 @@
 }
 
 .footer {
-  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: pink;
+
+  /* left center right */
+  text-align: center;
 }
