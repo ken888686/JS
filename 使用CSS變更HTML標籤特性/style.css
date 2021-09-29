@@ -1,32 +1,52 @@
+body {
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁",
+    "Microsoft JhengHei", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .wrap {
-  width: 500px;
-  background: #000;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 .header {
-  height: 50px;
-  background: red;
+  border: 2px solid black;
+  padding: 25px 20px;
+}
+.header a {
+  font-size: 50px;
+  color: gray;
+}
+.header a:hover {
+  color: red;
 }
 
 .content {
-  /* height盡量不要寫死 */
-  /* 讓內容自動調整即可 */
-  /* height: 500px; */
-  background: blue;
-  padding: 20px;
+  height: 500px;
+  border: 5px solid red;
+  padding: 25px 20px;
 }
 .content p {
+  margin-bottom: 20px;
+}
+.content a {
+  display: inline-block;
+  background: blue;
   color: white;
-  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+.content a:hover {
+  background: red;
+}
+.content a:active {
+  background: green;
 }
 
 .footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
   background: pink;
-
-  /* left center right */
   text-align: center;
+  padding: 10px;
 }
