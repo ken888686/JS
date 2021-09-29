@@ -33,30 +33,49 @@ h1 {
   margin: 48px 0;
 }
 
-.content {
+.card {
   margin-bottom: 72px;
 }
 
-.category {
+h2 {
   border-bottom: 1px solid black;
   padding-bottom: 8px;
   margin-bottom: 16px;
-}
-.category h2 {
   font-size: 32px;
   font-weight: bold;
 }
-.category span {
-  font-size: 24px;
-  font-weight: bold;
+
+span {
   color: #a00404;
-  padding-left: 16px;
 }
 
-.description {
+.card span {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+.card li {
   margin-bottom: 24px;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.skill-container {
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 28px;
+  max-width: 996px;
+}
+.skill-container h2 {
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+}
+.skill-container ul {
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 24px;
+  border-left: 1px solid #96a9c4;
+  width: 220px;
 }
 
 .timeline {
@@ -81,25 +100,23 @@ h1 {
 }
 
 .footer {
-  background: #415165;
-  color: white;
   padding-top: 24px;
   padding-bottom: 48px;
   text-align: center;
 }
-.footer .container h2 {
+.footer h2 {
   border-bottom: 1px solid white;
   padding-bottom: 8px;
   font-size: 32px;
   font-weight: 500;
 }
-.footer .container span {
+.footer span {
   margin-left: 16px;
   font-size: 24px;
   font-weight: 500;
 }
 .footer ul {
-  margin-top: 32px;
+  padding-top: 16px;
 }
 .footer li {
   margin-bottom: 16px;
@@ -111,4 +128,13 @@ h1 {
   margin: 0 auto;
   margin-top: 20px;
   width: 192px;
+}
+
+.blue {
+  background: #415165;
+  color: white;
+  text-align: center;
+}
+.blue span {
+  color: white;
 }
