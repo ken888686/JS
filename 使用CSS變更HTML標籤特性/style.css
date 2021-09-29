@@ -1,19 +1,28 @@
-/* 外邊界距離 */
-.box {
-  border: 5px solid blue;
-  width: 300px;
-
-  /* height盡量不寫 讓內容自動調整 */
-  /* height: 200px; */
+.wrap {
+  width: 500px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.box p {
-  border: 5px solid red;
-  background: gray;
+.header {
+  height: 50px;
+  background: red;
+}
+
+.content {
+  /* height盡量不要寫死 */
+  /* 讓內容自動調整即可 */
+  /* height: 500px; */
+  background: blue;
+  padding: 20px;
+}
+.content p {
+  color: white;
   margin-bottom: 30px;
 }
 
-/* 內邊界距離 */
-.box {
-  padding-left: 30px;
+.footer {
+  height: 100px;
+  background: pink;
 }
