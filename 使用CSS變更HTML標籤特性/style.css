@@ -1,52 +1,24 @@
+/* *: 所有元素都可以套用 */
+/* before, after: 偽元素 */
+/* 必用: 常見於 css reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁",
     "Microsoft JhengHei", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-.wrap {
-  margin: 0 auto;
-  max-width: 70%;
-}
-
-.header {
-  border: 2px solid black;
-  padding: 25px 20px;
-}
-.header a {
-  font-size: 50px;
-  color: gray;
-}
-.header a:hover {
-  color: red;
-}
-
-.content {
-  height: 500px;
-  border: 5px solid red;
-  padding: 25px 20px;
-}
-.content p {
-  margin-bottom: 20px;
-}
-.content a {
-  display: inline-block;
-  background: blue;
-  color: white;
-  padding: 10px 20px;
-}
-.content a:hover {
-  background: red;
-}
-.content a:active {
-  background: green;
-}
-
-.footer {
-  background: pink;
-  text-align: center;
+.box {
+  width: 50px;
+  height: 50px;
+  border: 10px solid blue;
   padding: 10px;
+  background: #000;
+
+  /* 常見使用border-box */
+  /* box-sizing: border-box; */
 }
