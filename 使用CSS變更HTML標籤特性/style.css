@@ -12,3 +12,8 @@
   background: gray;
   margin-bottom: 30px;
 }
+
+/* 內邊界距離 */
+.box {
+  padding-left: 30px;
+}
