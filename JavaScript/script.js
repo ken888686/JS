@@ -1,9 +1,9 @@
-// push: 加在後面
-// unshift: 加在前面
+// pop: 移除後面
+// shift: 移除前面
 
 let x = [1, 2, "as"];
-x.push("qwer");
+x.pop();
 console.log(x);
 
-x.unshift("asdf");
+x.shift();
 console.log(x);
