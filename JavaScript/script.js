@@ -22,8 +22,6 @@ let data = [
 ];
 
 const list = document.querySelector(".list");
-const stationFilter = document.querySelector(".filter");
-
 function init() {
   let result = "";
   data.forEach((x) => {
@@ -34,6 +32,7 @@ function init() {
 
 init();
 
+const stationFilter = document.querySelector(".filter");
 stationFilter.addEventListener("click", (e) => {
   if (e.target.value == undefined) {
     return;
@@ -51,4 +50,24 @@ stationFilter.addEventListener("click", (e) => {
     });
     list.innerHTML = result;
   }
+});
+
+const stationName = document.querySelector(".stationName");
+const stationCharger = document.querySelector(".stationCharger");
+const btn = document.querySelector(".btn");
+btn.addEventListener("click", (e) => {
+  if (stationName.value == "") {
+    alert("Empty Station Name");
+    return;
+  }
+
+  data.push({
+    charger: stationCharger.value,
+    name: stationName.value,
+  });
+
+  stationCharger.value = "";
+  stationName.value = "";
+
+  init();
 });

@@ -12,12 +12,20 @@
 </head>
 
 <body>
-  <div class="filter">
-    <input type="button" value="free">
-    <input type="button" value="coin">
-    <input type="button" value="all">
+  <div class="add">
+    <input type="text" class="stationName" placeholder="Name">
+    <select class="stationCharger">
+      <option value="coin">Coin</option>
+      <option value="free">Free</option>
+    </select>
+    <input type="button" value="Save" class="btn">
   </div>
 
+  <div class="filter">
+    <input type="button" value="all">
+    <input type="button" value="free">
+    <input type="button" value="coin">
+  </div>
   <ul class="list"></ul>
   <script src="./script.js"></script>
 </body>
