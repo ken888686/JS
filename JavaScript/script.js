@@ -1,8 +1,8 @@
-const btn = document.querySelector(".btn");
 const title = document.querySelectorAll("h1");
 let count = 0;
 
-btn.addEventListener("click", (e) => {
+const btnPlus = document.querySelector(".btn-plus");
+btnPlus.addEventListener("click", (e) => {
   count++;
   title.forEach((element) => {
     element.textContent = count;
@@ -15,4 +15,10 @@ btnMinus.addEventListener("click", () => {
   title.forEach((element) => {
     element.textContent = count;
   });
+});
+
+const btnClick = document.querySelector(".btn-click");
+btnClick.addEventListener("click", (event) => {
+  console.log(event);
+  console.log(event.clientX);
 });
