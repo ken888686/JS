@@ -1,13 +1,7 @@
-const btn = document.querySelector(".btn");
-btn.addEventListener("click", (e) => {
-  console.log(e.target);
-});
+const link = document.querySelector("a");
+link.addEventListener("click", (e) => {
+  // 取消標籤預設行為
+  e.preventDefault();
 
-const list = document.querySelector(".list");
-list.addEventListener("click", (e) => {
-  // console.log(e.target.innerHTML);
-  // console.log(e.target.nodeName);
-  if (e.target.nodeName == "INPUT") {
-    console.log("Button!!!");
-  }
+  document.querySelector("h1").textContent = "Clicked!!";
 });
