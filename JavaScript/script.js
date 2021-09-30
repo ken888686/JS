@@ -1,1 +1,2 @@
-let cokePrise = 100;
+// NaN: Not a Number
+console.log(typeof NaN);
