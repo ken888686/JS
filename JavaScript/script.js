@@ -1,3 +1,5 @@
 const main = document.querySelector(".main");
-main.innerHTML = `<h2 class="title">Title</h2>`;
-main.innerHTML = `<p>${5 + 8}</p>`;
+const myLink = document.querySelector("a");
+console.log(myLink);
+myLink.setAttribute("href", "https://tw.yahoo.com");
+myLink.setAttribute("class", "red");
