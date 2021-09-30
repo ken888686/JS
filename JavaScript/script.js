@@ -1,3 +1,3 @@
-// undefined: 尚未被賦予任何型別與值
-let a;
+// null: 有被賦予值，但為空值
+let a = 1;
 console.log(typeof a);
