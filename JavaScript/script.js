@@ -1,7 +1,7 @@
-const link = document.querySelector("a");
-link.addEventListener("click", (e) => {
-  // 取消標籤預設行為
-  e.preventDefault();
+let data = [1, 2, 3, 4, 5, 6, 7];
+let result = 0;
 
-  document.querySelector("h1").textContent = "Clicked!!";
+data.forEach((item, index, arr) => {
+  console.log(`item: ${item}, index: ${index}, array: ${arr}`);
 });
+console.log(`hello`);
