@@ -22,3 +22,6 @@ btnClick.addEventListener("click", (event) => {
   console.log(event);
   console.log(event.clientX);
 });
+
+// 可查詢目前的標籤
+console.log(btnClick.nodeName);
