@@ -1,6 +1,7 @@
-const txt = document.querySelector(".txt");
-console.log(txt.value);
+const btn = document.querySelector(".btn");
+const title = document.querySelector("h1");
 
-const list = document.querySelector(".list");
-list.value = "B";
-console.log(list.value);
+btn.addEventListener("click", (e) => {
+  console.log("Done");
+  title.textContent = "Done";
+});
