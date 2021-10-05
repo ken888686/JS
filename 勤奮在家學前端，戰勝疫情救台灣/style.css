@@ -1,14 +1,19 @@
 .menu {
-  /* width: 700px; */
+  width: 600px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+
+  /* default */
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
 }
 
 .menu li {
   width: 100px;
   text-align: center;
-  border: 1px solid #000;
+  margin-bottom: 10px;
 }
 
 .menu li a {
