@@ -14,6 +14,8 @@ let data = [
 ];
 
 const list = document.querySelector(".list");
+const txt = document.querySelector(".txt");
+const save = document.querySelector(".save");
 
 // 顯示現有事項
 function renderData(data) {
@@ -23,3 +25,18 @@ function renderData(data) {
   });
   list.innerHTML = str;
 }
+renderData(data);
+
+// Save
+save.addEventListener("click", function (e) {
+  if (txt.value == "") {
+    alert("Please enter");
+    return;
+  }
+
+  let obj = {};
+  obj.content = txt.value;
+  data.push(obj);
+  renderData(data);
+  txt.value = "";
+});
