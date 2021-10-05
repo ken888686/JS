@@ -1,23 +1,32 @@
 .container {
-  display: flex;
-  justify-content: center;
+  width: 500px;
   background: #004466;
-  width: 800px;
   margin: 0 auto;
-  padding: 10px;
+  display: flex;
 }
 
 .item {
-  width: 50px;
   background: #00ffa2;
-  text-align: center;
   color: #004466;
+  text-align: center;
   font-size: 36px;
-  margin: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-/* 父層會因為子元素的高度而變化 */
-/* 其他子元素也會跟著影響 */
+.item1 {
+  width: 150px;
+  height: 150px;
+}
 .item2 {
-  height: 100px;
+  height: 200px;
+}
+.item3 {
+  width: 400px;
+  height: 300px;
+}
+.item4 {
+  width: 100px;
+  height: 200px;
 }
