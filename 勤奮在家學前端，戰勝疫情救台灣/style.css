@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background: #004466;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item {
+  width: 50px;
+  background: #00ffa2;
+  text-align: center;
+  color: #004466;
+  font-size: 36px;
+  margin: 10px;
+}
+
+/* 父層會因為子元素的高度而變化 */
+/* 其他子元素也會跟著影響 */
+.item2 {
+  height: 100px;
+}
