@@ -1,16 +1,24 @@
 .container {
-  width: 500px;
-  height: 300px;
+  width: 900px;
+  height: 500px;
   background: #004466;
   margin: 0 auto;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
 
   /* default */
   /* flex-direction: row; */
-  flex-direction: row-reverse;
-  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
   /* flex-direction: column-reverse; */
+
+  /* default */
+  justify-content: flex-start;
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
 }
 
 .item {
